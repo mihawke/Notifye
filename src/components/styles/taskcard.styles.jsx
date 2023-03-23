@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     padding: 10,
     alignItems: 'center',
-    flexDirection: "row"
+    flexDirection: "row",
+    margin: 10
 
   },
   title: {

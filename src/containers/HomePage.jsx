@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import { styles } from './styles/HomePage.styles'
 import Header from '../components/header'
@@ -11,9 +11,16 @@ const HomePage = () => {
       <View>
         <Header></Header>
       </View>
-      <View style={styles.bodyContainer}>
-        <TaskCard></TaskCard>
-      </View>
+      <ScrollView>
+        <View style={styles.bodyContainer}>
+          <TaskCard task={'Task One'}></TaskCard>
+          <TaskCard task={'Task Two'}></TaskCard>
+          <TaskCard task={'Task Three'}></TaskCard>
+          <TaskCard task={'Task Four'}></TaskCard>
+          <TaskCard task={'Task Five'}></TaskCard>
+          <TaskCard task={'Task Six'}></TaskCard>
+        </View>
+      </ScrollView>
       <View style={styles.footer}>
         <Footer></Footer>
       </View>

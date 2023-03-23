@@ -8,13 +8,13 @@ import {
 } from 'react-native';
 import { styles } from './styles/taskcard.styles';
 
-const TaskCard = () => {
+const TaskCard = (props) => {
 
     return (
         <View style={styles.container}>
             <View style={styles.icon}>
             </View>
-            <Text style={styles.title}>Title</Text>
+            <Text style={styles.title}>{props.task}</Text>
         </View>
     );
 };
