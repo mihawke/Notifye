@@ -3,7 +3,7 @@ import React from 'react'
 import { styles } from './styles/HomePage.styles'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import Cards from '../components/cards'
+import TaskCard from '../components/taskcard'
 
 const HomePage = () => {
   return (
@@ -12,7 +12,7 @@ const HomePage = () => {
         <Header></Header>
       </View>
       <View style={styles.bodyContainer}>
-        <Cards></Cards>
+        <TaskCard></TaskCard>
       </View>
       <View style={styles.footer}>
         <Footer></Footer>
