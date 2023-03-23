@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     },
     bodyContainer:{
         padding: 0,
-        backgroundColor: 'red',
+        backgroundColor: "white",
         width: '100%',
         flex: 1,
     },

@@ -3,6 +3,7 @@ import React from 'react'
 import { styles } from './styles/HomePage.styles'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Cards from '../components/cards'
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Header></Header>
       </View>
       <View style={styles.bodyContainer}>
+        <Cards></Cards>
       </View>
       <View style={styles.footer}>
         <Footer></Footer>
