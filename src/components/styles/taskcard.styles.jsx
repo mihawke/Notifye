@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     width: "80%",
-    height: 150,
+    height: 70,
     backgroundColor: "#afeeee",
     borderRadius: 15,
     padding: 10,
@@ -15,20 +15,20 @@ const styles = StyleSheet.create({
   title: {
     color: "#151E3D",
     textAlign: 'center',
-    fontSize: "24px",
+    fontSize: 16,
     fontWeight: 'bold',
     // fontFamily: 'sans-serif',
-    marginLeft: 50,
+    marginLeft: 20,
     justifyContent:'center',
     alignSelf:'center',
     // backgroundColor:'red'
 
   },
   icon: {
-    marginLeft: 40,
-    marginRight: 40,
-    width: 28,
-    height: 28,
+    marginLeft: 10,
+    marginRight: 10,
+    width: 16,
+    height: 16,
     borderRadius: 28  ,
     backgroundColor: '#AFEEEE',
     borderWidth: 3,

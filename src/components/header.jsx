@@ -11,10 +11,10 @@ const Header = () => {
         <Feather name="menu" size={24} color="white" />
       </TouchableHighlight>
       <TouchableHighlight>
-        <a><Feather name="search" size={24} color="white" /></a>
+        <Feather name="search" size={24} color="white" />
       </TouchableHighlight>
       <TouchableHighlight>
-        <a><Feather name="bell" size={24} color="white" /></a>
+        <Feather name="bell" size={24} color="white" />
       </TouchableHighlight>
     </View>
   )

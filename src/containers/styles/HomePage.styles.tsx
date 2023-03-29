@@ -5,9 +5,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 0,
-        backgroundColor: '#eaeaea',
+        // backgroundColor: 'pink',
         width: '100%',
-        // justifyContent:'center',
+        justifyContent:'center',
     },
     footer:{
         justifyContent: 'flex-end',

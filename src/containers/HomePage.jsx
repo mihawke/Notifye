@@ -13,12 +13,10 @@ const HomePage = () => {
         <Header></Header>
       </View>
       <ScrollView>
-        <View>
           <Tasks></Tasks>
-        </View>
       </ScrollView>
       <View style={styles.footer}>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </View>
     </View>
   )
