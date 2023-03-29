@@ -9,14 +9,6 @@ const styles = StyleSheet.create({
         width: '100%',
         // justifyContent:'center',
     },
-    bodyContainer:{
-        padding: 0,
-        backgroundColor: "white",
-        width: '100%',
-        flex: 1,
-        alignItems:'center',
-        paddingTop: 10
-    },
     footer:{
         justifyContent: 'flex-end',
     },
