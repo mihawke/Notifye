@@ -28,6 +28,11 @@ const styles = StyleSheet.create({
         right: 30,
         alignItems: 'center',
         justifyContent:'center',
+    },
+    input: {
+        position: 'absolute',
+        bottom: 100,
+        // right: 50,
     }
 });
 
