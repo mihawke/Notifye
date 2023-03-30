@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     width: "80%",
-    height: 70,
-    backgroundColor: "#afeeee",
+    height: 60,
+    backgroundColor: "#FFFFFF",
     borderRadius: 15,
     padding: 10,
     alignItems: 'center',
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
 
   },
   title: {
-    color: "#151E3D",
+    color: "#505873",
     textAlign: 'center',
     fontSize: 16,
     fontWeight: 'bold',
@@ -27,12 +27,12 @@ const styles = StyleSheet.create({
   icon: {
     marginLeft: 10,
     marginRight: 10,
-    width: 16,
-    height: 16,
+    width: 20,
+    height: 20,
     borderRadius: 28  ,
-    backgroundColor: '#AFEEEE',
-    borderWidth: 3,
-    borderColor: '#151E3D',
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    borderColor: '#4988E4',
   }
 });
 export { styles } 

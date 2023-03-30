@@ -8,13 +8,13 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <TouchableHighlight>
-        <Feather name="menu" size={24} color="white" />
+        <Feather name="menu" size={24} color="gray" />
       </TouchableHighlight>
       <TouchableHighlight>
-        <Feather name="search" size={24} color="white" />
+        <Feather name="search" size={24} color="gray" />
       </TouchableHighlight>
       <TouchableHighlight>
-        <Feather name="bell" size={24} color="white" />
+        <Feather name="bell" size={24} color="gray" />
       </TouchableHighlight>
     </View>
   )
